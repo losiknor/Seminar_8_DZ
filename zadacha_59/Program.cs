@@ -18,7 +18,7 @@ for (int i = 0; i < array.GetLength(0); i++)
 Console.WriteLine("");
 int minSum = arraySum[0];
 int indexMin = 0;
-for (int i = 0; i < array.GetLength(0); i++)
+for (int i = 1; i < array.GetLength(0); i++)
 {
     if (arraySum[i] < minSum)
     {
